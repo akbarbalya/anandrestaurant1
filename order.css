@@ -1,0 +1,26 @@
+.orderdetails{
+    text-align: center;
+}
+.formdiv  {
+       position: relative;
+      left: 42%;
+       font-size: large;
+       width: 357px;
+       
+}
+  
+#submit{
+    width: 200px;
+    padding: 5px;
+}
+@media screen and (max-width: 767px)
+{
+    .formdiv{
+        position: revert-layer;
+        padding: 14px;
+    }
+    #submit{
+       padding: 6px;
+    }
+}
+ 
